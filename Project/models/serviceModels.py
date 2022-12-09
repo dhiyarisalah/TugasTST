@@ -17,4 +17,7 @@ class babyName(BaseModel):
 #     id : int
 #     judul_film: str
 #     genres : str
-    
+
+class musicItem(BaseModel):
+    name : str
+    year : int

@@ -2,8 +2,6 @@
 from authentication.jwthandler import  create_access_token, get_current_user
 from fastapi import APIRouter, Body, HTTPException, Depends, Request,status
 from models.userModels import User, Login, Token, TokenData
-
-# from database.database import get_game_by_genre, get_anime_genre
 from database.db import *
 from fastapi.encoders import jsonable_encoder
 from models.serviceModels import babyName
